@@ -15,7 +15,7 @@ The Monte Carlo approach is to frame the above integral as an expectation over a
 Assume consider $x$ to be random $x \sim X$ with pdf $f_X(x)$. Multiply and divide the right hand side by $f_X(x)$
 
 $$
-    \int\limits_a^b \frac{g(x)}{f_X(x)}f_X(x)\,dx.
+    \int\limits_a^b \frac{g(x)}{f_X(x)}f_X(x)\;dx.
 $$
 
 Assume $f_X(x)$ is zero everywhere but in $[a,b]$. Then, we might change the bounds of integration to
