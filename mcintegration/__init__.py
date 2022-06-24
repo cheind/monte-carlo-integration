@@ -48,9 +48,16 @@ def mcintegrate(
         err: estimate of the 1-sigma approximation error
 
     Example:
+        Integral of cosine
         >>> F, err = mcintegrate(np.cos, 0.0, np.pi/2)
         >>> f'{F:.2f}'
-        '2.00'
+        '1.00'
+
+        Volume of unit sphere
+        >>> i = lambda x: np.sum(x**2, -1) <= 1.0
+        >>> F, err = mcintegrate(i, [-1.0] * 3, [1.0] * 3, n=int(1e6))
+        >>> abs(F-(4/3*np.pi)) < 1e-2
+        True
 
     See:
         Taboga, Marco (2021). "The Monte Carlo method",
