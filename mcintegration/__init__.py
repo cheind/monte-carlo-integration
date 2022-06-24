@@ -47,6 +47,11 @@ def mcintegrate(
         F: estimate of the integral
         err: estimate of the 1-sigma approximation error
 
+    Example:
+        >>> F, err = mcintegrate(np.cos, 0.0, np.pi/2)
+        >>> f'{F:.2f}'
+        '2.00'
+
     See:
         Taboga, Marco (2021). "The Monte Carlo method",
         Lectures on probability theory and mathematical statistics.
