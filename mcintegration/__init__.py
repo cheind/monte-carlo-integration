@@ -50,8 +50,8 @@ def mcintegrate(
     Example:
         Integral of cosine
         >>> F, err = mcintegrate(np.cos, 0.0, np.pi/2)
-        >>> f'{F:.2f}'
-        '1.00'
+        >>> abs(F-1.0) < 1e-2
+        True
 
         Volume of unit sphere
         >>> i = lambda x: np.sum(x**2, -1) <= 1.0
