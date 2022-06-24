@@ -1,4 +1,4 @@
-# monte-carlo-integration
+# Monte Carlo Integration
 
 Theory and implementation of Monte Carlo integration in Python.
 
