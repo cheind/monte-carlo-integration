@@ -2,6 +2,10 @@
 
 Theory and implementation of Monte Carlo integration in Python.
 
+## Theory
+
+See [docs/monte_carlo_integration.pdf](docs/monte_carlo_integration.pdf) for a write-up of my research notes.
+
 ## Example
 
 Here is an example using indicator functions.
