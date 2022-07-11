@@ -15,7 +15,7 @@ import numpy as np
 
 import mcintegration as mci
 
-# Indicator function for being inside sphere in R^N
+# Indicator function for being inside a unit sphere in R^N
 i = lambda x: np.sum(x**2, -1) <= 1.0
 
 # Area of unit circle in R^2
