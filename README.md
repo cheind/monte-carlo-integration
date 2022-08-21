@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7013396.svg)](https://doi.org/10.5281/zenodo.7013396)
+
 # Monte Carlo Integration
 
 Theory and implementation of Monte Carlo integration in Python.
